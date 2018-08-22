@@ -8,7 +8,6 @@ function onKeyDownHandler(event) {
     event.preventDefault()
     return
   }
-}
 if (key === code[tracker]) {
   tracker++
   if (tracker === code.length) {
