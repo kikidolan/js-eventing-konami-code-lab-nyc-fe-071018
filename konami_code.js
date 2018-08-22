@@ -9,6 +9,7 @@ function init() {
 const body = document.querySelector('body')
 body.addEventListener('keydown', (event) => {
   if (event.which === code[tracker] ) {
+    console.log('YAS!')
     tracker ++
   } else {
     console.log('BUMMAH!')
