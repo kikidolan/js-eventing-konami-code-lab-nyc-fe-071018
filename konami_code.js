@@ -5,7 +5,6 @@ function onKeyDownHandler(event) {
   console.log(tracker)
   const key = parseInt(event.detail || event.which)
   if (tracker === code.length) {
-    window.alert("YAS!")
     event.preventDefault()
     return
   }
