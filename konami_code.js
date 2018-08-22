@@ -17,6 +17,8 @@ if (key === code[tracker]) {
 } else {
   console.log('BUMMAH!')
   tracker = 0
+
+}
 }
 
 function init() {
