@@ -17,7 +17,6 @@ if (key === code[tracker]) {
 } else {
   console.log('BUMMAH!')
   tracker = 0
-  }
 }
 
 init()
@@ -42,6 +41,5 @@ init()
   //  tracker = 0
  // }
 //})
-}
+//}
 
-init()
