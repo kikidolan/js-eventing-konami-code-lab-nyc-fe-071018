@@ -7,6 +7,9 @@ body.addEventListener('keydown', (event) => {
   if (event.which === code[tracker]) {
     console.log('YAS!')
     tracker ++
+    if (tracker === code.length - 1) {
+      alert ('BOOM!')
+    }
   } else {
     console.log('BUMMAH!')
     tracker = 0
